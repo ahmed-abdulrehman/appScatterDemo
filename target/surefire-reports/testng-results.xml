@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTesting" duration-ms="80984" started-at="2018-03-19T03:01:58Z" finished-at="2018-03-19T03:03:19Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testing" duration-ms="80984" started-at="2018-03-19T03:01:58Z" finished-at="2018-03-19T03:03:19Z">
+      <class name="Test.SmokeTesting">
+        <test-method status="PASS" signature="startingReport()[pri:0, instance:Test.SmokeTesting@4909b8da]" name="startingReport" is-config="true" duration-ms="300" started-at="2018-03-19T03:01:58Z" finished-at="2018-03-19T03:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startingReport -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:Test.SmokeTesting@4909b8da]" name="browser" is-config="true" duration-ms="9733" started-at="2018-03-19T03:01:58Z" finished-at="2018-03-19T03:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:Test.SmokeTesting@4909b8da]" name="createAccount" duration-ms="5572" started-at="2018-03-19T03:02:08Z" finished-at="2018-03-19T03:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.SmokeTesting@4909b8da]" name="tearDown" is-config="true" duration-ms="1151" started-at="2018-03-19T03:02:14Z" finished-at="2018-03-19T03:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccount status=SUCCESS method=SmokeTesting.createAccount()[pri:0, instance:Test.SmokeTesting@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:Test.SmokeTesting@4909b8da]" name="browser" is-config="true" duration-ms="10604" started-at="2018-03-19T03:02:15Z" finished-at="2018-03-19T03:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="activateAccount()[pri:0, instance:Test.SmokeTesting@4909b8da]" name="activateAccount" duration-ms="25132" started-at="2018-03-19T03:02:25Z" finished-at="2018-03-19T03:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activateAccount -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.SmokeTesting@4909b8da]" name="tearDown" is-config="true" duration-ms="1401" started-at="2018-03-19T03:02:50Z" finished-at="2018-03-19T03:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=activateAccount status=SUCCESS method=SmokeTesting.activateAccount()[pri:0, instance:Test.SmokeTesting@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:Test.SmokeTesting@4909b8da]" name="browser" is-config="true" duration-ms="9287" started-at="2018-03-19T03:02:52Z" finished-at="2018-03-19T03:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="logInToAnAccount()[pri:0, instance:Test.SmokeTesting@4909b8da]" name="logInToAnAccount" duration-ms="16436" started-at="2018-03-19T03:03:01Z" finished-at="2018-03-19T03:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInToAnAccount -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test.SmokeTesting@4909b8da]" name="tearDown" is-config="true" duration-ms="975" started-at="2018-03-19T03:03:18Z" finished-at="2018-03-19T03:03:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInToAnAccount status=SUCCESS method=SmokeTesting.logInToAnAccount()[pri:0, instance:Test.SmokeTesting@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endingReport()[pri:0, instance:Test.SmokeTesting@4909b8da]" name="endingReport" is-config="true" duration-ms="384" started-at="2018-03-19T03:03:19Z" finished-at="2018-03-19T03:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endingReport -->
+      </class> <!-- Test.SmokeTesting -->
+    </test> <!-- Smoke Testing -->
+  </suite> <!-- SmokeTesting -->
+</testng-results>

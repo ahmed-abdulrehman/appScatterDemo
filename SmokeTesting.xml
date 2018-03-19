@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTesting">
+
+	<test name="Smoke Testing">
+		<classes>
+
+			<class name="Test.SmokeTesting">
+				<methods>
+					<include name="createAccount" />
+					<include name="activateAccount" />
+					<include name="logInToAnAccount" />
+				</methods>
+			</class>
+
+
+		</classes>
+	</test>
+</suite>
